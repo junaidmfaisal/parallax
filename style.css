@@ -16,7 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vw;
     background: url("./background.png");
     background-size: cover;
     background-position: center;
@@ -54,6 +54,7 @@ body{
 .sec{
     position: relative;
     background: black;
+    margin-top: -100vh;
     padding: 30px 100px;
 }
 
