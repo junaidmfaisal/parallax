@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("./background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#text{
+    position: absolute;
+    font-size: 5vw;
+    color: #1b283a;
+    text-shadow: 2px 4px 5px #f9f9f9;
+}
+
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+
+.parallax img#gate-left{
+    transform: translateX(-30vh);
+
+}
+.parallax img#gate-right{
+    transform: translatex(30vh);
+    
+}
+
+.parallax img#grass{
+    margin-top: -8vh;
+}
+
+.sec{
+    position: relative;
+    background: black;
+    padding: 7vh 10vh;
+}
+
+.sec h2{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.sec p{
+    color: antiquewhite;
+    font-size: 1.2em;
+    text-align: justify;
+}
